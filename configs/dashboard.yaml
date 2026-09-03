@@ -1,0 +1,12 @@
+app:
+  title: "Collections Intelligence Dashboard"
+  page_icon: "📊"
+  layout: "wide"
+
+  data:
+    predictions_path: "data/processed/predictions.csv"
+
+
+  thresholds:
+    high_risk_pd: 0.50
+    critical_risk_pd: 0.75
