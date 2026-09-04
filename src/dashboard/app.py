@@ -131,7 +131,7 @@ def main() -> None:
 
     st.dataframe(
         portfolio_summary,
-        use_container_width=True,
+        width="stretch",
         hide_index=True,)
     st.subheader("AI Portfolio Summary")
 
@@ -171,7 +171,7 @@ def main() -> None:
             build_pd_histogram(
                 filtered_predictions
             ),
-            use_container_width=True,
+            width="stretch",
         )
 
     with chart_column_2:
@@ -179,7 +179,7 @@ def main() -> None:
             build_expected_loss_by_grade(
                 filtered_predictions
             ),
-            use_container_width=True,
+            width="stretch",
         )
 
     # Second chart row.
@@ -190,7 +190,7 @@ def main() -> None:
             build_risk_band_chart(
                 filtered_predictions
             ),
-            use_container_width=True,
+            width="stretch",
         )
 
     with chart_column_4:
@@ -198,7 +198,7 @@ def main() -> None:
             build_expected_loss_by_state(
                 filtered_predictions
             ),
-            use_container_width=True,
+            width="stretch",
         )
 
     # Full-width relationship chart.
@@ -206,7 +206,7 @@ def main() -> None:
         build_pd_vs_expected_loss(
             filtered_predictions
         ),
-        use_container_width=True,
+        width="stretch",
     )
 
     st.divider()
@@ -239,7 +239,7 @@ def main() -> None:
 
     st.dataframe(
         display_priority_accounts,
-        use_container_width=True,
+        width="stretch",
         hide_index=True,
         column_config={
             "pd": st.column_config.NumberColumn(

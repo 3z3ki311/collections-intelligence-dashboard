@@ -80,6 +80,6 @@ def render_data_quality_summary(
 
         st.dataframe(
             missing_values,
-            use_container_width=True,
+            width="stretch",
             hide_index=True,
         )

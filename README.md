@@ -287,14 +287,14 @@ collections-intelligence-dashboard/
 
 ### 1. Clone the repository
 
-```bash
+```
 git clone <repository-url>
 cd collections-intelligence-dashboard
 ```
 
 ### 2. Create a virtual environment
 
-```bash
+```
 python -m venv .venv
 ```
 
@@ -302,19 +302,20 @@ python -m venv .venv
 
 Windows:
 
-```bash
+```
 .venv\Scripts\activate
 ```
 
 macOS / Linux:
 
-```bash
+```
 source .venv/bin/activate
 ```
 
-### 4. Install dependencies
+### 4. Install dependencies/ Upgrade pip
 
-```bash
+```
+python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
 
@@ -328,13 +329,13 @@ $env:PYTHONPATH=(Resolve-Path .\src).Path
 
 macOS / Linux:
 
-```bash
+```
 export PYTHONPATH="$(pwd)/src"
 ```
 
 ### 6. Launch the dashboard
 
-```bash
+```
 python -m streamlit run ./src/dashboard/app.py
 ```
 
