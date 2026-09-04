@@ -1,8 +1,8 @@
 # Collections-Intelligence Dashboard
 
-An end-to-end credit risk and collections decision-support application built with Python, Strealit, SQL, and machine-learning outputs.
+An end-to-end credit risk and collections decision-support application built with Python, Streamlit, SQL, and machine-learning outputs.
 
-The dashboard converts account-level credit-risk predictions into operational portfolio insights as collection teams can identify high-risk accounts, understand expected-los exposure, and prioritize resources.
+The dashboard converts account-level credit-risk predictions into operational portfolio insights so that collection teams can identify high-risk accounts, understand expected-loss exposure, and prioritize resources.
 
 The project also includes a lightweight AI-assisted summary layer that translates validated portfolio metrics into concise business-facing insights.
 
