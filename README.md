@@ -75,7 +75,7 @@ Python Analytics
 Streamlit Dashboard
         |
         +----------------------+
-        |                      |>?
+        |                      |
         v                      v
 Portfolio KPIs          Risk Visualizations
         |                      |
