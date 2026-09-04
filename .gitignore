@@ -6,7 +6,8 @@ __pycache__/
 
 # Virtual environments
 .venv/
-venv/
+.venv313/
+.venv_clean/
 
 # IDE
 .idea/
